@@ -1,5 +1,35 @@
 .rectangle {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(45, 176, 220);
+    width: auto;
+    height: auto;
+    background-color: rgb(85, 186, 220);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 100px;
+}
+
+.telechargement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-direction: column;
+    width: 440px;
+}
+
+.personnage {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+.personnage img {
+    width: 380px;
+}
+
+.icon_dreamy {
+    width: 910px;
 }
