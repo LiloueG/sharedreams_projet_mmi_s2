@@ -1,22 +1,30 @@
 .rectangle {
     width: auto;
-    height: auto;
+    height: 800px;
     background-color: rgb(85, 186, 220);
+    transform: rotate(-10deg);
+    position: absolute;
+}
+
+.largeur_rectangle {
+    width: 100vw;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+section {
     padding: 20px 100px;
 }
 
 .telechargement {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 1rem;
     margin-top: 2rem;
-    flex-direction: column;
     width: 440px;
+
 }
 
 .personnage {
@@ -55,7 +63,6 @@ h3 {
     align-items: center;
     gap: 1rem;
     margin-top: 2rem;
-    padding: 30px 0 0;
 }
 
 .en-tete p {
@@ -81,12 +88,10 @@ h3 {
     align-items: center;
     gap: 1rem;
     margin-top: 2rem;
-    padding: 30px 0 0;
 }
 
 .telechargement img {
     width: 200px;
-    display: flex;
     justify-content: center;
 }
 
@@ -97,6 +102,8 @@ h3 {
 
 .personnage {
     position: relative;
+    width: 600px;
+    height: 800px;
 }
 
 .img1 {
@@ -118,4 +125,8 @@ h3 {
     top: 400px;
     left: 10px;
     z-index: -3;
+}
+
+.Robot_dreamy {
+    display: flex;
 }
