@@ -1,15 +1,3 @@
-.rectangle {
-    width: auto;
-    height: 800px;
-    background-color: rgb(85, 186, 220);
-    transform: rotate(-10deg);
-    position: absolute;
-}
-
-.largeur_rectangle {
-    width: 100vw;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -127,6 +115,83 @@ h3 {
     z-index: -3;
 }
 
+
+.rectangle {
+    position: absolute;
+    top: 1500px;
+    height: 894px;
+    left: 0;
+    z-index: -1
+}
+
 .Robot_dreamy {
     display: flex;
+}
+
+.Robot_dreamy img {
+    width: 500px;
+}
+
+.paragraphe2 {
+    font-size: 20px;
+    padding: 260px 60px 0 0;
+}
+
+.condition_premium p {
+    font-size: 12px ;
+    padding: 350px 0 0 60px;
+}
+
+.container {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.iphone {
+    width: 330px;
+}
+
+.paragraphe3 {
+    width: 600px;
+    margin-bottom: 200px;    
+}
+
+.statistique {
+    position: absolute;
+    width: 1050px;
+    top: 2450px;
+    left: 418px;
+}
+
+.premium {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.premium img {
+    width: 1190px;
+}
+
+.premium h1 {
+    margin: 0 0 40px 20px;
+}
+
+.reseaux {
+    margin-top: 200px;
+}
+
+.img_reseau {
+    width: 100px;
+}
+
+.reseau img {
+    display: flex; 
+}
+
+.iphone15 {
+    width: 330px;
 }
