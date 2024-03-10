@@ -3,10 +3,31 @@ footer {
     display: flex;
     gap: 2rem;
     margin-top: 600px;
-    background-color: ;
+    background-color: #000B1F;
+    justify-content: space-between;
 }
 
 footer a {
     display: flex;
     gap: 2rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: lighter;
+}
+
+.reseau_gris {
+    width: 50px;
+    display: block;
+    margin-top: 10px;
+}
+
+
+.contact {
+    color: white;
+}
+
+footer h5 {
+    font-size: 20px;
+    color: white;
 }
