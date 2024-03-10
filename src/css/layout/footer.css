@@ -1,0 +1,12 @@
+footer {
+    padding: 20px 100px;
+    display: flex;
+    gap: 2rem;
+    margin-top: 600px;
+    background-color: ;
+}
+
+footer a {
+    display: flex;
+    gap: 2rem;
+}
