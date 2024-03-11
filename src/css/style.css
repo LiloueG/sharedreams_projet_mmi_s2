@@ -4,17 +4,8 @@
 /* Librairies */
 @import "vendors/normalize.css";    
 
-/* Variables */
-@import "utils/variables.css";
-
 /* Règles de base */
 @import 'base/main.css';
-
-/* Règles des médias */
-@import 'base/media.css';
-
-/* Règles des composants */
-@import 'components/menu.css';
 
 /* Règles des layouts */
 @import 'layout/header.css';

@@ -81,6 +81,7 @@ h3 {
     align-items: center;
     gap: 1rem;
     margin-top: 2rem;
+    background-color: white;
 }
 
 .telechargement img {
@@ -103,30 +104,29 @@ h3 {
     position: absolute;
     top: 10px;
     left: 10px;
-    z-index: -2;
+    z-index: 0;
 }
 
 .img2 {
     position: absolute;
     top: 200px;
     left: 200px;
-    z-index: -1;
+    z-index: 0;
 }
 
 .img3 {
     position: absolute;
     top: 400px;
     left: 10px;
-    z-index: -3;
+    z-index: 0;
 }
-
 
 .rectangle {
     position: absolute;
     top: 1500px;
     height: 894px;
     left: 0;
-    z-index: -1
+    z-index: -1;
 }
 
 .Robot_dreamy {
@@ -147,8 +147,13 @@ h3 {
     padding: 350px 0 0 60px;
 }
 
+.suivi {
+    background-color: white;
+    padding: 80px 0;
+    position: relative;
+}
+
 .container {
-    margin-top: 200px;
     display: flex;
     align-items: center;
     gap: 3rem;
@@ -165,9 +170,9 @@ h3 {
 
 .statistique {
     position: absolute;
-    width: 1050px;
-    top: 2450px;
-    left: 418px;
+    height: 80%;
+    right: 0;
+    top: 0;
 }
 
 .premium {
@@ -188,6 +193,7 @@ h3 {
 .reseaux {
     margin-top: 200px;
     display: flex;
+    margin-bottom: 600px;
 }
 
 .reseau_text_img {
@@ -218,3 +224,8 @@ h3 {
     width: 900px;
 }
 
+main {
+    padding: 20px 100px;
+    background-color: #DAEAF5;
+    border-radius: 20px;
+}

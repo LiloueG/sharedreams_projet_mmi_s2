@@ -2,7 +2,6 @@ footer {
     padding: 20px 100px;
     display: flex;
     gap: 2rem;
-    margin-top: 600px;
     background-color: #000B1F;
     justify-content: space-between;
 }
@@ -21,7 +20,6 @@ footer a {
     display: block;
     margin-top: 10px;
 }
-
 
 .contact {
     color: white;
