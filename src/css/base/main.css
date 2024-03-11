@@ -321,3 +321,7 @@ input[type="checkbox"] {
     margin-right: 10px;
 }
 
+.checkbox-group1 label {
+    text-decoration: underline;
+    color: #4ca4ec;
+}
