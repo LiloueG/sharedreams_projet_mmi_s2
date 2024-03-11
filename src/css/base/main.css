@@ -2,10 +2,6 @@
     scroll-behavior: smooth;
 }
 
-html {
-    width: 1467px;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to bottom, #DAEAF5, #87BBE1, #8BBDE1, #273B6F, #15203E)
