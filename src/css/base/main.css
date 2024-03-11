@@ -229,3 +229,95 @@ main {
     background-color: #DAEAF5;
     border-radius: 20px;
 }
+
+  
+  form {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+  }
+
+  .formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formulaire h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+  
+  input[type=email] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  .checkbox-group {
+    margin: 20px 0;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #94c3ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px
+  }
+  
+  button:hover {
+    background-color: #4ca4ec;
+  }
+
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+input[type=email], textarea {
+    width: 100%;
+    padding: 15px 8px 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+input[type=email]:focus, textarea:focus {
+    border-color: #4ca4ec;
+    outline: none;
+}
+input[type=email] + label, textarea + label {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    background: white;
+    transition: all 0.3s;
+    padding: 0 4px;
+    color: #999;
+}
+input[type=email]:focus + label, textarea:focus + label,
+input[type=email]:not(:placeholder-shown) + label,
+textarea:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 2px;
+    font-size: 12px;
+    color: #4ca4ec;
+}
+.checkbox-group {
+    margin-bottom: 20px;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
