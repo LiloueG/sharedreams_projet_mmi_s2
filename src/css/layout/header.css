@@ -8,6 +8,15 @@ header{
     gap: 1rem;
 }
 
+.header_logo a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    gap: 2rem;
+}
+
 .header_nav img {
     display: flex;
     align-items: center;
