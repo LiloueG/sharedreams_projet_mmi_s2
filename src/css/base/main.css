@@ -11,6 +11,11 @@ section {
     padding: 20px 100px;
 }
 
+bouton a {
+    text-decoration: none;
+    color: white;
+}
+
 .telechargement {
     display: flex;
     justify-content: space-between;
